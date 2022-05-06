@@ -185,7 +185,7 @@ article.gallery img:hover {
         padding-bottom: 15px;
     }
     p {
-        padding: 50px 100px 65px 75px;
+        padding: 10px 100px 65px 75px;
         font-size: 22px;
     }
 
@@ -201,7 +201,7 @@ article.gallery img:hover {
     }
 
     p {
-        padding: 50px 100px 65px 50px;
+        padding: 0 100px 65px 50px;
         font-size: 18px;
     }
 
@@ -219,10 +219,11 @@ article.gallery img:hover {
 
     .section-title{
         font-size: 24px;
+        padding: 20px 35px 7px 35px;
     }
 
     p {
-        padding: 25px 50px 65px 50px;
+        padding: 0 50px 65px 50px;
         font-size: 12px;
     }
 
