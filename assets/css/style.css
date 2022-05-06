@@ -178,7 +178,12 @@ article.gallery img:hover {
         margin-right: auto;
         width: 750px;
     }
+
+    #work img:hover {
+        width: 720px;
+    }
 }
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header{
@@ -192,6 +197,10 @@ article.gallery img:hover {
     #work img{
         width: 650px;
     }
+
+    #work img:hover {
+        width: 630px;
+    }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -203,10 +212,6 @@ article.gallery img:hover {
     p {
         padding: 0 100px 65px 50px;
         font-size: 18px;
-    }
-
-    #work img{
-        width: 390px;
     }
 }
 
