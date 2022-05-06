@@ -76,6 +76,14 @@ header h1 {
   }
 /* header styles end */
 
+#about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    width: 360px;
+    border-radius: 8px;
+}
 .section-title {
     color: var(--color4);
     font-size: 35px;
@@ -125,7 +133,7 @@ article.gallery img:hover {
 }
   
 #work {
-    background-image: url('../images/powell-banner.jpg');
+    background-image: url('../images/powell.jpg');
     padding-bottom: 40px;
     color: var(--color2);
 }
@@ -220,6 +228,9 @@ article.gallery img:hover {
     header h1{
         font-size: 24px;
         text-align: center;
+    }
+    #about img {
+        width: 240px;
     }
 
     .section-title{
