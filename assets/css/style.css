@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color1: #4493ab;
+    --color2: #ffffff;
+    --color3: #d0926d;
+    --color4: #617186;
+    --color5: #fdd5d8;
+    --color6: #f5f9e6;
+
+}
+  
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header styles start */
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-image: url('../images/powell-banner.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 40px;
+    color: var(--color2);
+    text-shadow: 0 0 10px rgba(0, 182, 255, 0.1);
+  }
+
+    
+  header a {
+    text-decoration: none;
+    color: var(--color2);
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.70vw;
+    text-shadow: 0 0 10px rgba(61, 56, 56, 0.5);
+  }
+
+  header nav ul li a:hover {
+      background: var(--color6);
+      color: var(--color4);
+      border-radius: 15px;
+      text-shadow: none;
+  }
+/* header styles end */
+
+.section-title {
+    color: var(--color4);
+    font-size: 35px;
+    padding: 45px 35px 15px 35px;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    text-shadow: 0 0 2px rgba(97, 113, 134, 0.5);
+}
+
+.work {
+    color: var(--color2);
+}
+
+  p {
+      padding: 20px 180px 65px 180px;
+      font-size: 22px;
+      color: var(--color4);
+      text-align: center;
+  }
+
+  article.gallery {
+      width: 450px;
+      padding: 5px;
+  }
+
+  article.gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+  }
+
+  article.gallery img:hover {
+    width: 420px;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  #work {
+    background-image: url('../images/powell-banner.jpg');
+    padding-bottom: 40px;
+    color: var(--color2);
+  }
+
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  #contact {
+      padding-bottom: 45px;
+  }
+
+  .contact-text {
+    padding: 20px 70px;
+    color: var(--color4);
+    text-align: center;
+    font-size: 24px;
+}
+
+.contact-text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-text a:hover {
+    color: var(--color1);
+}
+
+
+#resume {
+    background-image: url('../images/powell-banner.jpg');
+    background-position: 25%;
+  }
+
+#resume h2{
+      color: var(--color2);
+}
+
+.resume {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 45px;
+}
+
+  
